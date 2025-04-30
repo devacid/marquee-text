@@ -1,0 +1,188 @@
+# Copyright (C) 2024 devAcid
+msgid ""
+msgstr ""
+"Project-Id-Version: Marquee Text 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/marquee-text\n"
+"POT-Creation-Date: 2024-04-28 22:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/widgets/class-marquee-text-widget.php:25
+msgid "Marquee Text"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:35
+msgid "Slides de Texto"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:42
+msgid "Texto"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:45
+msgid "Tu texto aquí..."
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:60
+msgid "Elementos de Texto"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:71
+msgid "Primer texto..."
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:82
+msgid "Configuración"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:89
+msgid "ID del Marquee"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:93
+msgid "ID único para este marquee. Útil para personalización CSS."
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:100
+msgid "Dirección"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:105
+msgid "Izquierda"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:106
+msgid "Derecha"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:114
+msgid "Velocidad (milisegundos)"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:123
+msgid "Slides Mínimos"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:134
+msgid "Fade en las orillas"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:137
+msgid "Sí"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:138
+msgid "No"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:150
+msgid "Estilos del Texto"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:158
+msgid "Tipografía"
+msgstr ""
+
+#: includes/widgets/class-marquee-text-widget.php:171
+msgid "Color del Texto"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:31
+msgid "Documentation - Shortcode [marquee-text]"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:32
+msgid "This shortcode generates a \"marquee\" type text slider using SwiperJS."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:35
+msgid "Basic Usage:"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:38
+msgid "Available Parameters:"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:40
+msgid "required"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:40
+msgid "list of texts separated by semicolon (;)."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:41
+msgid "optional"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:41
+msgid "scroll speed in milliseconds. Default: 3000."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:42
+msgid "\"left\" or \"right\". If left, text moves from left to right. Default: left."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:43
+msgid "minimum number of slides for smooth loop. Default: 20."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:44
+msgid "custom ID for the slider."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:45
+msgid "\"true\" or \"false\". Adds fade effect on edges."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:46
+msgid "Font size (e.g. \"16px\", \"1.2rem\")."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:47
+msgid "Font weight (e.g. \"400\", \"bold\")."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:48
+msgid "Font color (e.g. \"#ff0000\", \"red\")."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:49
+msgid "Text transform (e.g. \"uppercase\", \"lowercase\", \"capitalize\")."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:52
+msgid "Advanced Example:"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:55
+msgid "Notes:"
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:57
+msgid "SwiperJS is automatically loaded if not present."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:58
+msgid "Multiple sliders are allowed on the same page."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:59
+msgid "All texts are wrapped in a &lt;span&gt; with class <code>text-style</code>."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:60
+msgid "Texts are sanitized to prevent XSS."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:61
+msgid "Error handling is included for better debugging."
+msgstr ""
+
+#: includes/admin/class-marquee-text-docs.php:63
+msgid "Version: %s"
+msgstr "" 

@@ -1,0 +1,134 @@
+# Copyright (C) 2024 devAcid
+msgid ""
+msgstr ""
+"Project-Id-Version: Marquee Text 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/marquee-text\n"
+"POT-Creation-Date: 2024-04-28 22:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-04-28 22:34+0000\n"
+"Last-Translator: devAcid <soporte@devacid.xyz>\n"
+"Language-Team: English <soporte@devacid.xyz>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/widgets/class-marquee-text-widget.php:25
+msgid "Marquee Text"
+msgstr "Marquee Text"
+
+#: includes/widgets/class-marquee-text-widget.php:35
+msgid "Contenido"
+msgstr "Content"
+
+#: includes/widgets/class-marquee-text-widget.php:42
+msgid "Texto"
+msgstr "Text"
+
+#: includes/widgets/class-marquee-text-widget.php:45
+msgid "Tu texto aquí..."
+msgstr "Your text here..."
+
+#: marquee-text.php:71
+msgid "devAcid Addons"
+msgstr "devAcid Addons"
+
+#: marquee-text.php:82
+msgid "El widget de texto en movimiento requiere que Elementor esté instalado y activado."
+msgstr "The marquee text widget requires Elementor to be installed and activated."
+
+#: includes/class-marquee-text.php:262
+msgid "Documentation - Shortcode [marquee-text]"
+msgstr "Documentation - Shortcode [marquee-text]"
+
+#: includes/class-marquee-text.php:263
+msgid "This shortcode generates a \"marquee\" type text slider using SwiperJS."
+msgstr "This shortcode generates a \"marquee\" type text slider using SwiperJS."
+
+#: includes/class-marquee-text.php:266
+msgid "Basic Usage:"
+msgstr "Basic Usage:"
+
+#: includes/class-marquee-text.php:269
+msgid "Available Parameters:"
+msgstr "Available Parameters:"
+
+#: includes/class-marquee-text.php:271
+msgid "required"
+msgstr "required"
+
+#: includes/class-marquee-text.php:271
+msgid "list of texts separated by semicolon (;)."
+msgstr "list of texts separated by semicolon (;)."
+
+#: includes/class-marquee-text.php:272
+msgid "optional"
+msgstr "optional"
+
+#: includes/class-marquee-text.php:272
+msgid "scroll speed in milliseconds. Default: 3000."
+msgstr "scroll speed in milliseconds. Default: 3000."
+
+#: includes/class-marquee-text.php:273
+msgid "\"left\" or \"right\". If left, text moves from left to right. Default: left."
+msgstr "\"left\" or \"right\". If left, text moves from left to right. Default: left."
+
+#: includes/class-marquee-text.php:274
+msgid "minimum number of slides for smooth loop. Default: 20."
+msgstr "minimum number of slides for smooth loop. Default: 20."
+
+#: includes/class-marquee-text.php:275
+msgid "custom ID for the slider."
+msgstr "custom ID for the slider."
+
+#: includes/class-marquee-text.php:276
+msgid "\"true\" or \"false\". Adds fade effect on edges."
+msgstr "\"true\" or \"false\". Adds fade effect on edges."
+
+#: includes/class-marquee-text.php:277
+msgid "Font size (e.g. \"16px\", \"1.2rem\")."
+msgstr "Font size (e.g. \"16px\", \"1.2rem\")."
+
+#: includes/class-marquee-text.php:278
+msgid "Font weight (e.g. \"400\", \"bold\")."
+msgstr "Font weight (e.g. \"400\", \"bold\")."
+
+#: includes/class-marquee-text.php:279
+msgid "Font color (e.g. \"#ff0000\", \"red\")."
+msgstr "Font color (e.g. \"#ff0000\", \"red\")."
+
+#: includes/class-marquee-text.php:280
+msgid "Text transform (e.g. \"uppercase\", \"lowercase\", \"capitalize\")."
+msgstr "Text transform (e.g. \"uppercase\", \"lowercase\", \"capitalize\")."
+
+#: includes/class-marquee-text.php:283
+msgid "Advanced Example:"
+msgstr "Advanced Example:"
+
+#: includes/class-marquee-text.php:286
+msgid "Notes:"
+msgstr "Notes:"
+
+#: includes/class-marquee-text.php:288
+msgid "SwiperJS is automatically loaded if not present."
+msgstr "SwiperJS is automatically loaded if not present."
+
+#: includes/class-marquee-text.php:289
+msgid "Multiple sliders are allowed on the same page."
+msgstr "Multiple sliders are allowed on the same page."
+
+#: includes/class-marquee-text.php:290
+msgid "All texts are wrapped in a &lt;span&gt; with class <code>text-style</code>."
+msgstr "All texts are wrapped in a &lt;span&gt; with class <code>text-style</code>."
+
+#: includes/class-marquee-text.php:291
+msgid "Texts are sanitized to prevent XSS."
+msgstr "Texts are sanitized to prevent XSS."
+
+#: includes/class-marquee-text.php:292
+msgid "Error handling is included for better debugging."
+msgstr "Error handling is included for better debugging."
+
+#: includes/class-marquee-text.php:295
+msgid "Version: %s"
+msgstr "Version: %s" 
