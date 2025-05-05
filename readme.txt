@@ -4,7 +4,7 @@ Tags: marquee, text, animation, elementor
 Requires at least: 5.0
 Tested up to: 6.4
 Requires PHP: 7.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -86,6 +86,11 @@ Sí, puedes personalizar el tamaño de fuente, color, peso y transformación del
 
 == Changelog ==
 
+= 1.0.2 =
+* Actualización de SwiperJS a la versión 11
+* Mejoras en la inicialización de los sliders
+* Optimización del código JavaScript
+
 = 1.0.1 =
 * Agregado soporte opcional para Elementor
 * Mejorada la compatibilidad con temas modernos
@@ -99,6 +104,9 @@ Sí, puedes personalizar el tamaño de fuente, color, peso y transformación del
 * Efecto de desvanecimiento en los bordes
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Esta versión actualiza SwiperJS a la versión 11 y mejora la inicialización de los sliders.
 
 = 1.0.1 =
 Esta versión agrega soporte opcional para Elementor y mejoras de rendimiento.

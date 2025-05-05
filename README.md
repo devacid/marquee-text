@@ -91,6 +91,11 @@ Sí, puedes personalizar el tamaño de fuente, color, peso y transformación del
 
 ## 📝 Changelog
 
+### 1.0.2
+* Actualización de SwiperJS a la versión 11
+* Mejoras en la inicialización de los sliders
+* Optimización del código JavaScript
+
 ### 1.0.1
 * Agregado soporte opcional para Elementor
 * Mejorada la compatibilidad con temas modernos
