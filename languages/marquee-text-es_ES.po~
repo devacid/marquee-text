@@ -4,13 +4,13 @@ msgstr ""
 "Project-Id-Version: Marquee Text 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/marquee-text\n"
 "POT-Creation-Date: 2024-04-28 22:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2024-04-28 22:34+0000\n"
 "Last-Translator: devAcid <soporte@devacid.xyz>\n"
 "Language-Team: Español <soporte@devacid.xyz>\n"
 "Language: es_ES\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: includes/widgets/class-marquee-text-widget.php:25
@@ -99,8 +99,7 @@ msgstr "Documentación - Shortcode [marquee-text]"
 
 #: includes/admin/class-marquee-text-docs.php:32
 msgid "This shortcode generates a \"marquee\" type text slider using SwiperJS."
-msgstr ""
-"Este shortcode genera un slider de texto tipo \"marquee\" usando SwiperJS."
+msgstr "Este shortcode genera un slider de texto tipo \"marquee\" usando SwiperJS."
 
 #: includes/admin/class-marquee-text-docs.php:35
 msgid "Basic Usage:"
@@ -128,7 +127,7 @@ msgstr "velocidad de desplazamiento en milisegundos. Por defecto: 3000."
 
 #: includes/admin/class-marquee-text-docs.php:42
 msgid "\"left\" or \"right\". If left, text moves from left to right. Default: left."
-msgstr "\"left\" o \"right\". Si es left, el texto se mueve de izquierda a derecha. Por defecto: left."
+msgstr "\"izquierda\" o \"derecha\". Si es izquierda, el texto se mueve de izquierda a derecha. Por defecto: izquierda."
 
 #: includes/admin/class-marquee-text-docs.php:43
 msgid "minimum number of slides for smooth loop. Default: 20."
@@ -140,8 +139,7 @@ msgstr "ID personalizado para el slider."
 
 #: includes/admin/class-marquee-text-docs.php:45
 msgid "\"true\" or \"false\". Adds fade effect on edges."
-msgstr ""
-"\"verdadero\" o \"falso\". Agrega efecto de desvanecimiento en los bordes."
+msgstr "\"verdadero\" o \"falso\". Agrega efecto de desvanecimiento en los bordes."
 
 #: includes/admin/class-marquee-text-docs.php:46
 msgid "Font size (e.g. \"16px\", \"1.2rem\")."
@@ -157,8 +155,7 @@ msgstr "Color de la fuente (ej. \"#ff0000\", \"red\")."
 
 #: includes/admin/class-marquee-text-docs.php:49
 msgid "Text transform (e.g. \"uppercase\", \"lowercase\", \"capitalize\")."
-msgstr ""
-"Transformación de texto (ej. \"uppercase\", \"lowercase\", \"capitalize\")."
+msgstr "Transformación de texto (ej. \"uppercase\", \"lowercase\", \"capitalize\")."
 
 #: includes/admin/class-marquee-text-docs.php:52
 msgid "Advanced Example:"
@@ -177,11 +174,8 @@ msgid "Multiple sliders are allowed on the same page."
 msgstr "Se permiten múltiples sliders en la misma página."
 
 #: includes/admin/class-marquee-text-docs.php:59
-msgid ""
-"All texts are wrapped in a &lt;span&gt; with class <code>text-style</code>."
-msgstr ""
-"Todos los textos están envueltos en un &lt;span&gt; con la clase <code>text-"
-"style</code>."
+msgid "All texts are wrapped in a &lt;span&gt; with class <code>text-style</code>."
+msgstr "Todos los textos están envueltos en un &lt;span&gt; con la clase <code>text-style</code>."
 
 #: includes/admin/class-marquee-text-docs.php:60
 msgid "Texts are sanitized to prevent XSS."
@@ -193,4 +187,4 @@ msgstr "Se incluye manejo de errores para mejor depuración."
 
 #: includes/admin/class-marquee-text-docs.php:63
 msgid "Version: %s"
-msgstr "Versión: %s"
+msgstr "Versión: %s" 

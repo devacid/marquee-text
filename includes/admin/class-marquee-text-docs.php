@@ -45,7 +45,7 @@ class Marquee_Text_Docs {
             <ul>
                 <li><strong>text</strong> (<?php _e('required', 'marquee-text'); ?>): <?php _e('list of texts separated by semicolon (;).', 'marquee-text'); ?></li>
                 <li><strong>speed</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php _e('scroll speed in milliseconds. Default: 3000.', 'marquee-text'); ?></li>
-                <li><strong>direction</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php _e('"left" or "right". If left, text moves from left to right. Default: left.', 'marquee-text'); ?></li>
+                <li><strong>direction</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php printf(__('"%s" or "%s". If left, text moves from left to right. Default: left.', 'marquee-text'), 'left', 'right'); ?></li>
                 <li><strong>min_slides</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php _e('minimum number of slides for smooth loop. Default: 20.', 'marquee-text'); ?></li>
                 <li><strong>id</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php _e('custom ID for the slider.', 'marquee-text'); ?></li>
                 <li><strong>fade</strong> (<?php _e('optional', 'marquee-text'); ?>): <?php _e('"true" or "false". Adds fade effect on edges.', 'marquee-text'); ?></li>
