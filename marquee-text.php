@@ -3,7 +3,7 @@
  * Plugin Name: Marquee Text
  * Plugin URI: https://github.com/devacid/marquee-text
  * Description: Un plugin para crear textos en movimiento tipo marquee usando SwiperJS. Incluye soporte opcional para Elementor.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: devAcid
  * Author URI: https://devacid.xyz
  * Text Domain: marquee-text
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Definir constantes del plugin
-define('MARQUEE_TEXT_VERSION', '1.0.1');
+define('MARQUEE_TEXT_VERSION', '1.0.2');
 define('MARQUEE_TEXT_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('MARQUEE_TEXT_PLUGIN_URL', plugin_dir_url(__FILE__));
 
@@ -149,10 +149,10 @@ function marquee_text_footer_script() {
                         delay: 0,
                         disableOnInteraction: false,
                         pauseOnMouseEnter: false,
+                        reverseDirection: <?php echo $config['direction']; ?>,
                     },
                     allowTouchMove: false,
                     spaceBetween: 30,
-                    reverseDirection: <?php echo $config['direction']; ?>,
                 });
             <?php endforeach; ?>
         });
